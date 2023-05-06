@@ -1,0 +1,153 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    width: 200vh;
+}
+
+.triangle.blue {
+    position: relative;
+    z-index: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 200px solid blue;
+}
+
+.triangle.purple {
+    position: relative;
+    z-index: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 160px solid purple;
+    right: 400px;
+    top: -160px;
+}
+
+.triangle.green {
+    position: relative;
+    z-index: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 130px solid green;
+    left: 100px;
+    top: -200px;
+}
+
+.bar {
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    background-color: red;
+    transform: rotate(20deg);
+    left: -120px;
+    top: 0px;
+}
+
+.circle1 {
+    position: absolute;
+    border: 1px solid black;
+    padding: 0;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    list-style: none;
+    overflow: hidden;
+    left: 80px;
+    top: -10px;
+}
+
+.circle2 {
+    position: absolute;
+    border: 1px solid black;
+    padding: 0;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    list-style: none;
+    overflow: hidden;
+    right: 70px;
+    bottom: -20px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 600px;
+}
+
+li {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    transform-origin: 0% 100%;
+}
+
+.triangles {
+    position: relative;
+    left: -100%;
+    width: 90px;
+    height: 90px;
+}
+
+li:first-child {
+    transform: rotate(0deg) skewY(-60deg);
+    border: 1px solid black; 
+}
+
+li:nth-child(2) {
+    transform: rotate(30deg) skewY(-60deg);
+    border: 1px solid black; 
+}
+
+li:nth-child(3) {
+    transform: rotate(60deg) skewY(-60deg);
+    border: 1px solid black; 
+}
+
+li:nth-child(4) {
+    transform: rotate(90deg) skewY(-60deg);
+    border: 1px solid black; 
+}
+
+li:nth-child(5) {
+    transform: rotate(120deg) skewY(-60deg);
+    border: 1px solid black; 
+}
+
+li:nth-child(6) {
+    transform: rotate(150deg) skewY(-60deg);
+    border: 1px solid black; 
+}
+
+li:nth-child(7) {
+    transform: rotate(180deg) skewY(-60deg);
+    border: 1px solid black; 
+}
+
+li:nth-child(8) {
+    transform: rotate(210deg) skewY(-60deg);
+    border: 1px solid black; 
+}
+
+li:nth-child(9) {
+    transform: rotate(240deg) skewY(-60deg);
+    border: 1px solid black; 
+}
+
+li:nth-child(10) {
+    transform: rotate(270deg) skewY(-60deg);
+    border: 1px solid black; 
+}
+
+li:nth-child(11) {
+    transform: rotate(300deg) skewY(-60deg);
+    border: 1px solid black; 
+}
+
+li:nth-child(12) {
+    transform: rotate(330deg) skewY(-60deg);
+    border: 1px solid black; 
+}
